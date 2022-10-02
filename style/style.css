@@ -48,6 +48,8 @@
 color: var(--title-text-color); 
 }
 
+
+/* tbody */
 .site-nav .navigation:hover, 
 .site-nav .navigation:focus {
     color: var(--accent-color);
@@ -82,7 +84,8 @@ a.auth-nav {
 
 
 /* section */
-.section-title {
+.section-title,
+.title {
     color: var(--title-text-color);
 }
 
@@ -97,14 +100,28 @@ color: var(--title-text-color)
 }
 
 
-.navigation-button {
+/* portfolio */
+.navigation {
     background-color: var(--secondary-background);
     color: var(--title-text-color);
     border-radius: 4px;
     border-color: rgba(255, 255, 255, 1);
 }
 
-.navigation-button:hover {
+.navigation-butten:focus,
+.navigation-butten:hover {
     background-color: var(--accent-color);
     color: var(--main-background);
+    border-color: #FFFFFF;
+}
+.desc {
+    color: var(--primary-text-color);
+}
+
+.desc-nav {
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+.addres {
+    
 }
