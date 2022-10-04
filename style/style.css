@@ -19,17 +19,27 @@
 .body {
     background-color: var(--main-background);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list {
     list-style: none;
 }
 
+.text {
+    text-decoration: none;
+}
 
 /* page-header */
 /* logo */
 .logo {
     color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
 }
 
 .logo-web {
@@ -45,7 +55,11 @@
 
 /* site-nav */
 .site-nav .navigation {
-color: var(--title-text-color); 
+color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 
@@ -58,11 +72,7 @@ color: var(--title-text-color);
 .site-nav .navigation.current {
     color: var(--accent-color);
 }
- /* tbody */
-a.auth-nav {
-    color: black;
-}
-
+ 
 
 /* section hero */
 .hero-title {
@@ -74,6 +84,7 @@ a.auth-nav {
     color: var(--main-background);
     border-radius: 4px;
     border-color: rgba(255, 255, 255, 1);
+    font-family: inherit;
 }
 
 .button-hero:hover, 
@@ -118,10 +129,30 @@ color: var(--title-text-color)
     color: var(--primary-text-color);
 }
 
-.desc-nav {
-    color: rgba(255, 255, 255, 0.6); 
+.desc-addres {
+    color: #212121; 
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
-.addres {
-    
+
+.desc-addres:hover, 
+.desc-addres:focus,
+.link-addres:hover,
+.link-addres:focus {
+    color: var(--accent-color);
+}
+
+.link-addres {
+    /* повинен бути color: rgba(255, 255, 255, 0.6); */
+    color: #212121;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
