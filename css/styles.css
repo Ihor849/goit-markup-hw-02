@@ -50,13 +50,6 @@ a {
     color: var(--accent-color);
 }
 
-.logo-web:hover,
-.logo-web:focus,
-.logo:hover,
-.logo:focus {
-    color: chartreuse;
-}
-
 /* header site-nav */
 .site-nav .navigation {
     background-color: var(--secondary-background);
