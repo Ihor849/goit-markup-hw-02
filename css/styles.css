@@ -23,11 +23,16 @@
     letter-spacing: 0.03em;
 }
 
+
+
 .list {
     list-style: none;
 }
-
 .text {
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -167,7 +172,6 @@
 }
 
 /* PORTFOLIO */
-
 .navigation-butten {
     font-family: inherit;
     font-weight: 500;
