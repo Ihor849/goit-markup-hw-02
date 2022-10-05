@@ -23,11 +23,10 @@
     letter-spacing: 0.03em;
 }
 
-
-
 .list {
     list-style: none;
 }
+
 .text {
     text-decoration: none;
 }
@@ -209,4 +208,3 @@ letter-spacing: 0.06em;
  {
     color: var(--accent-color);
 }
-
