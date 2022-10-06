@@ -88,7 +88,7 @@ a {
 
 /* section hero */
 .hero {
-
+background-color: #2F303A;
 }
 
 .hero-title {
@@ -124,14 +124,16 @@ a {
 }
 
 /* sections WebStudio */
-.our-team {
-    background-color: var(--secondary-background);
-}
 .section-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.06em;
+}
+
+.our-team {
+    background-color: var(--secondary-background);
 }
 
 .title {
@@ -168,6 +170,7 @@ a {
 /* PORTFOLIO */
 .navigation-butten {
     font-family: inherit;
+    background-color: var(--secondary-background);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
