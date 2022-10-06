@@ -16,7 +16,7 @@
 
 
 /* page-body */
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--main-background);
     color: var(--primary-text-color);
@@ -204,6 +204,7 @@ letter-spacing: 0.06em;
 
 .footercontact-link {
 color: var(--addres-link);
+font-style: normal
 }
 
 .footercontact-link:hover,
