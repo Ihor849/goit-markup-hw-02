@@ -204,7 +204,10 @@ background-color: #2F303A;
     color: var(--main-background);
 }
 
-.picture .section-title {
+
+.picture, 
+.imgsection-title {
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
