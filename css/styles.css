@@ -137,7 +137,13 @@ background-color: #2F303A;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.06em;
+    }
+
+.title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.19;
 }
 
 .title-text {
@@ -149,16 +155,19 @@ background-color: #2F303A;
     background-color: var(--secondary-background);
 }
 
+.img-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+
 .img-team {
     background-color: var(--main-background);
 }
 
-.title {
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-}
+
 
 .img-text {
     font-size: 16px;
@@ -186,7 +195,7 @@ background-color: #2F303A;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
 }
 
 .navigation-butten:focus,
