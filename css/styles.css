@@ -167,7 +167,7 @@ background-color: #2F303A;
 
 /* Доробіти Уявні заголовки */
 .section .subject {
-    
+    visibility: hidden;
 }
 
 .footer {
